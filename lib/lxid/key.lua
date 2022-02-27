@@ -18,6 +18,8 @@ local ns = {
     Keypad = 0x2000,
     -- Dot, Comma, SquareBraceOpen...
     Symbol = 0x3000,
+    -- Left, Right, Middle Mouseclick
+    Mouse = 0x4000,
   },
   -- Function Key Values
   -- Better use Key.func(number)
