@@ -1,0 +1,12 @@
+[package]
+name = "lxid" # Lua X Input Daemon
+version = "0.1.0"
+authors = ["moritz <moritz@oword.org>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+mlua = { version = "0.7", features = ["lua54", "vendored", "macros"] }
+rdev = "0.5.1"
+home = "0.5.3"
